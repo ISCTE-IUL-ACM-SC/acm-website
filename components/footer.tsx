@@ -32,11 +32,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="text-blue-200 hover:text-white transition-colors inline-block py-1">
-                  Events
-                </Link>
-              </li>
-              <li>
                 <Link href="/projects" className="text-blue-200 hover:text-white transition-colors inline-block py-1">
                   Projects
                 </Link>
@@ -56,10 +51,10 @@ export function Footer() {
               <li className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 flex-shrink-0" />
                 <a
-                  href="mailto:contact@acmiscte.org"
+                  href="mailto:iscte.acm.chapter@gmail.com"
                   className="text-blue-200 hover:text-white transition-colors text-sm sm:text-base truncate"
                 >
-                  contact@acmiscte.org
+                iscte.acm.chapter@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">

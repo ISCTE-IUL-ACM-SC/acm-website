@@ -7,8 +7,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Project Two",
-    description: "Revolutionizing Y.",
-    image: "/modern-web-app-interface.png",
+    title: "Code++",
+    description: "Helping students overcome the initial programming chalenges.",
+    image: "/code++.jpg",
   },
 ]
