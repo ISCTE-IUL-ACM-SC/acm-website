@@ -11,7 +11,6 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const navItems = [
-    { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     { href: "/posts", label: "Posts" },
     { href: "/about", label: "About" },
@@ -62,14 +61,6 @@ export function Header() {
           <div className="flex items-center gap-2 sm:gap-3">
             <ThemeToggle />
 
-            {/* Sign Up Button */}
-            <Link
-              href="/register"
-              className="bg-white text-blue-800 max-sm:hidden px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors shadow-md font-medium"
-            >
-              Join
-            </Link>
-
             {/* Mobile Menu Button */}
             <Button
               variant="ghost"
@@ -97,13 +88,6 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Link
-            href="/register"
-            className="block py-2 px-4 bg-primary text-primary-foreground rounded-md text-center font-medium"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Sign Up
-          </Link>
         </div>
       )}
     </div>
