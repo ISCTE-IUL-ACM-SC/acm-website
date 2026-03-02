@@ -2,20 +2,9 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
+import { projects } from "@/lib/projects-data"
 
 export function ProjectsSection() {
-  const projects = [
-    {
-      title: "Project One",
-      description: "Innovative solution for X.",
-      image: "/innovative-tech-project-dashboard.jpg",
-    },
-    {
-      title: "Project Two",
-      description: "Revolutionizing Y.",
-      image: "/modern-web-app-interface.png",
-    },
-  ]
 
   const [currentProject, setCurrentProject] = useState(0)
 

@@ -61,24 +61,12 @@ export function Header() {
           <div className="flex items-center gap-2 sm:gap-3">
             <ThemeToggle />
 
-            {/* Language Selector */}
-            <div className="relative max-sm:hidden">
-              <Button
-                variant="ghost"
-                size="sm"
-                aria-label="Current language: Select Language"
-                className="relative flex items-center justify-center rounded-md text-sm hover:-translate-y-1 transform transition duration-200 hover:shadow-md"
-              >
-                <span className="text-2xl">🌐</span>
-              </Button>
-            </div>
-
             {/* Sign Up Button */}
             <Link
               href="/register"
               className="bg-white text-blue-800 max-sm:hidden px-4 py-2 rounded-lg hover:bg-blue-50 transition-colors shadow-md font-medium"
             >
-              Sign Up
+              Join
             </Link>
 
             {/* Mobile Menu Button */}

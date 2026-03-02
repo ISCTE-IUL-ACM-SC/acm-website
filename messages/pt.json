@@ -1,0 +1,68 @@
+{
+  "header": {
+    "home": "Início",
+    "projects": "Projetos",
+    "posts": "Artigos",
+    "about": "Sobre",
+    "join": "Aderir",
+    "studentChapter": "Capítulo Estudantil"
+  },
+  "hero": {
+    "title": "Junte-se à Nossa Comunidade",
+    "description": "Faça parte da nossa incrível comunidade e colabore em projetos.",
+    "getStarted": "Começar"
+  },
+  "about": {
+    "title": "Sobre o Capítulo Estudantil ACM ISCTE-IUL",
+    "description": "Somos o Capítulo Estudantil ISCTE-IUL da Association for Computing Machinery (ACM), uma comunidade vibrante dedicada ao avanço da computação como ciência e profissão. Nosso capítulo reúne estudantes apaixonados para colaborar, aprender e inovar no campo da ciência da computação e tecnologias emergentes.",
+    "innovation": "Inovação",
+    "innovationDesc": "Explore tecnologias de ponta e trabalhe em projetos inovadores que resolvem problemas do mundo real.",
+    "collaboration": "Colaboração",
+    "collaborationDesc": "Conecte-se com outros estudantes e profissionais para construir relacionamentos significativos e parcerias.",
+    "learning": "Aprendizado",
+    "learningDesc": "Aprimorei suas habilidades através de workshops, seminários e experiências práticas com especialistas da indústria.",
+    "aboutPageTitle": "Sobre Nós",
+    "aboutPageSubtitle": "Saiba mais sobre o Capítulo Estudantil ISCTE-IUL da Association for Computing Machinery",
+    "whoWeAre": "Quem Somos",
+    "whoWeAreDesc1": "O Capítulo Estudantil ISCTE-IUL da Association for Computing Machinery (ACM) é uma comunidade vibrante de estudantes apaixonados por computação, tecnologia e inovação. Somos parte da ACM, a maior sociedade educacional e científica de computação do mundo, dedicada ao avanço da computação como ciência e profissão.",
+    "whoWeAreDesc2": "Nosso capítulo serve estudantes do ISCTE-Instituto Universitário de Lisboa, promovendo colaboração, aprendizado e desenvolvimento profissional no campo da ciência da computação e disciplinas relacionadas.",
+    "ourMission": "Nossa Missão",
+    "missionIntro": "Nos comprometemos com:",
+    "mission1": "Promover excelência na educação em computação e prática profissional",
+    "mission2": "Criar oportunidades para membros se conectarem, colaborarem e crescerem",
+    "mission3": "Inspirar inovação e fostering uma cultura de aprendizado contínuo",
+    "mission4": "Construir pontes entre academia e indústria",
+    "whatWeDo": "O Que Fazemos",
+    "workshops": "Workshops & Seminários",
+    "workshopsDesc": "Organizamos workshops e seminários regulares cobrindo tecnologias emergentes, melhores práticas e insights da indústria para aprimorar as habilidades de nossos membros.",
+    "networking": "Eventos de Networking",
+    "networkingDesc": "Conecte-se com estudiantes, profissionais e líderes da indústria através de nossos eventos de networking e encontros sociais.",
+    "hackathons": "Hackathons & Competições",
+    "hackathomsDesc": "Participe de hackathons e competições de programação para desafiar a si mesmo e mostrar seus talentos.",
+    "projects": "Projetos Colaborativos",
+    "projectsDesc": "Trabalhe em projetos inovadores com seus colegas e contribua para soluções do mundo real em computação.",
+    "whyJoin": "Por Que Aderir ao Nosso Capítulo?",
+    "whyJoinIntro": "Aderir ao Capítulo Estudantil ACM ISCTE-IUL abre portas para inúmeras oportunidades de crescimento pessoal e profissional:",
+    "benefit1": "Acesso a eventos exclusivos, workshops e recursos de aprendizado",
+    "benefit2": "Conecte-se com estudantes e profissionais da indústria afins",
+    "benefit3": "Desenvolva habilidades de liderança e técnicas",
+    "benefit4": "Faça parte de uma comunidade global de profissionais de computação ACM",
+    "benefit5": "Melhore seu currículo e perspectivas de carreira",
+    "readyToJoin": "Pronto para se Juntar a Nós?",
+    "readyToJoinDesc": "Se você é um iniciante ou um programador experiente, há um lugar para você em nossa comunidade. Conecte-se conosco hoje e torne-se parte do futuro da computação!"
+  },
+  "blog": {
+    "title": "Últimos Artigos do Blog",
+    "description": "Mantenha-se atualizado com as últimas notícias, eventos e anúncios da ACM."
+  },
+  "projects": {
+    "title": "Nossos Projetos",
+    "description": "Explore os projetos inovadores em que temos trabalhado para fazer um impacto."
+  },
+  "footer": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade"
+  }
+}

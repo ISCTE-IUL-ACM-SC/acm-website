@@ -22,7 +22,7 @@ export function HeroSection() {
                 <span>Get Started</span>
                 <ArrowRight className="h-4 w-4" />
               </div>
-              <div className="absolute left-[20%] top-[40%] h-2 w-2 scale-[1] rounded-lg bg-blue-800 transition-all duration-300 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-blue-800"></div>
+              <div className="absolute left-[20%] top-[40%] h-2 w-2 scale-[1] rounded-lg bg-blue-800 transition-all duration-300 opacity-0 group-hover:left-[0%] group-hover:top-[0%] group-hover:h-full group-hover:w-full group-hover:scale-[1.8] group-hover:bg-blue-800 group-hover:opacity-100"></div>
             </Button>
           </div>
 

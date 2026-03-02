@@ -1,0 +1,68 @@
+{
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "posts": "Posts",
+    "about": "About",
+    "join": "Join",
+    "studentChapter": "Student Chapter"
+  },
+  "hero": {
+    "title": "Join Our Community",
+    "description": "Be a part of our amazing community and collaborate on projects.",
+    "getStarted": "Get Started"
+  },
+  "about": {
+    "title": "About the ISCTE-IUL ACM Student Chapter",
+    "description": "We are the ISCTE-IUL Student Chapter of the Association for Computing Machinery (ACM), a vibrant community dedicated to advancing computing as a science and profession. Our chapter brings together passionate students to collaborate, learn, and innovate in the field of computer science and emerging technologies.",
+    "innovation": "Innovation",
+    "innovationDesc": "Explore cutting-edge technologies and work on innovative projects that solve real-world problems.",
+    "collaboration": "Collaboration",
+    "collaborationDesc": "Connect with fellow students and professionals to build meaningful relationships and partnerships.",
+    "learning": "Learning",
+    "learningDesc": "Enhance your skills through workshops, seminars, and hands-on experiences with industry experts.",
+    "aboutPageTitle": "About Us",
+    "aboutPageSubtitle": "Learn more about the ISCTE-IUL Student Chapter of the Association for Computing Machinery",
+    "whoWeAre": "Who We Are",
+    "whoWeAreDesc1": "The ISCTE-IUL Student Chapter of the Association for Computing Machinery (ACM) is a vibrant community of students passionate about computing, technology, and innovation. We are part of ACM, the world's largest educational and scientific computing society, dedicated to advancing computing as a science and profession.",
+    "whoWeAreDesc2": "Our chapter serves students at ISCTE-Instituto Universitário de Lisboa, fostering collaboration, learning, and professional development in the field of computer science and related disciplines.",
+    "ourMission": "Our Mission",
+    "missionIntro": "We are committed to:",
+    "mission1": "Promoting excellence in computing education and professional practice",
+    "mission2": "Creating opportunities for members to connect, collaborate, and grow",
+    "mission3": "Inspiring innovation and fostering a culture of continuous learning",
+    "mission4": "Building bridges between academia and industry",
+    "whatWeDo": "What We Do",
+    "workshops": "Workshops & Seminars",
+    "workshopsDesc": "We organize regular workshops and seminars covering emerging technologies, best practices, and industry insights to enhance our members' skills.",
+    "networking": "Networking Events",
+    "networkingDesc": "Connect with fellow students, professionals, and industry leaders through our networking events and social gatherings.",
+    "hackathons": "Hackathons & Competitions",
+    "hackathomsDesc": "Participate in hackathons and coding competitions to challenge yourself and showcase your talents.",
+    "projects": "Collaborative Projects",
+    "projectsDesc": "Work on innovative projects with your peers and contribute to real-world solutions in computing.",
+    "whyJoin": "Why Join Our Chapter?",
+    "whyJoinIntro": "Joining the ISCTE-IUL ACM Student Chapter opens doors to countless opportunities for personal and professional growth:",
+    "benefit1": "Access to exclusive events, workshops, and learning resources",
+    "benefit2": "Network with like-minded students and industry professionals",
+    "benefit3": "Develop leadership and technical skills",
+    "benefit4": "Be part of a global ACM community of computing professionals",
+    "benefit5": "Enhance your resume and career prospects",
+    "readyToJoin": "Ready to Join Us?",
+    "readyToJoinDesc": "Whether you're a beginner or an experienced programmer, there's a place for you in our community. Connect with us today and become part of the future of computing!"
+  },
+  "blog": {
+    "title": "Latest Blog Posts",
+    "description": "Stay updated with the latest ACM news, events, and announcements."
+  },
+  "projects": {
+    "title": "Our Projects",
+    "description": "Explore the innovative projects we've been working on to make an impact."
+  },
+  "footer": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
+  }
+}
