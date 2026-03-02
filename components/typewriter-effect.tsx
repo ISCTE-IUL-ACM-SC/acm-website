@@ -60,7 +60,7 @@ export function TypewriterEffect() {
         setCurrentLineIndex(currentLineIndex + 1)
         setCurrentCharIndex(0)
       }
-    }, 50)
+    }, 5)
 
     return () => clearTimeout(timer)
   }, [currentLineIndex, currentCharIndex])
