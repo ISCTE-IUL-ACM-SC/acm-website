@@ -3,27 +3,43 @@
 import { useState, useEffect } from "react"
 
 const codeLines = [
-  { text: "main.java", color: "text-purple-400", isFilename: true },
+  { text: "binarySearch.java", color: "text-purple-400", isFilename: true },
   { text: "", color: "text-white" },
-  { text: "This is a sample Java program demonstrating polymorphism.", color: "text-white" },
-  { text: "It uses the Liskov Substitution Principle to show dynamic method binding.", color: "text-white" },
   {
-    text: "public class Main{",
+    text: "public static int binarySearch(int[] arr, int target) {",
     color: "text-white",
-    highlight: { public: "text-pink-400", class: "text-pink-400", Main: "text-yellow-300" },
+    highlight: { public: "text-pink-400", static: "text-pink-400", int: "text-cyan-300", target: "text-orange-300" },
   },
   {
-    text: "    public static void main(String[] args) {",
+    text: "    int left = 0, right = arr.length - 1;",
     color: "text-white",
-    highlight: {
-      public: "text-pink-400",
-      static: "text-pink-400",
-      void: "text-cyan-300",
-      main: "text-cyan-300",
-      "String[]": "text-cyan-300",
-    },
+    highlight: { left: "text-orange-300", right: "text-orange-300" },
   },
-  { text: "        ", color: "text-white", showCursor: true },
+  {
+    text: "    while (left <= right) {",
+    color: "text-white",
+    highlight: { while: "text-pink-400" },
+  },
+  {
+    text: "        int mid = left + (right - left) / 2;",
+    color: "text-white",
+    highlight: { mid: "text-orange-300" },
+  },
+  {
+    text: "        if (arr[mid] == target) return mid;",
+    color: "text-white",
+    highlight: { return: "text-pink-400" },
+  },
+  {
+    text: "        else if (arr[mid] < target)",
+    color: "text-white",
+    highlight: { else: "text-pink-400", if: "text-pink-400" },
+  },
+  { text: "            left = mid + 1;", color: "text-white" },
+  { text: "        else right = mid - 1;", color: "text-white" },
+  { text: "    }", color: "text-white" },
+  { text: "    return -1;", color: "text-white" },
+  { text: "}", color: "text-white", showCursor: true },
 ]
 
 export function TypewriterEffect() {

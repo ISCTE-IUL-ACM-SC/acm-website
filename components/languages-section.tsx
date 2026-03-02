@@ -2,14 +2,14 @@ import Image from "next/image"
 
 export function LanguagesSection() {
   const languages = [
-    { name: "JavaScript", logo: "/images/JavaScript-logo.png" },
-    { name: "Python", logo: "/images/Python-logo-notext.jpg" },
-    { name: "TypeScript", logo: "/images/Typescript_logo_2020.jpg" },
-    { name: "Java", logo: "/images/Java_programming_language_logo.jpg" },
-    { name: "C++", logo: "/images/ISO_C++_Logo.jpg" },
-    { name: "Go", logo: "/images/Go_Logo_Blue.jpg" },
-    { name: "Ruby", logo: "/images/Ruby_logo.jpg" },
-    { name: "Rust", logo: "/images/Rust_programming_language_black_logo.jpg" },
+    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/javascript/javascript-original.svg" },
+    { name: "Python", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/python/python-original.svg" },
+    { name: "TypeScript", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/typescript/typescript-original.svg" },
+    { name: "Java", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/java/java-original.svg" },
+    { name: "C++", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
+    { name: "Go", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/go/go-original.svg" },
+    { name: "Ruby", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/ruby/ruby-original.svg" },
+    { name: "Rust", logo: "https://cdn.jsdelivr.net/npm/devicon@latest/icons/rust/rust-original.svg" },
   ]
 
   return (

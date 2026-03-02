@@ -15,6 +15,7 @@ export function Header() {
     { href: "/projects", label: "Projects" },
     { href: "/posts", label: "Posts" },
     { href: "/about", label: "About" },
+    { href: "/join", label: "Join" },
   ]
 
   return (
