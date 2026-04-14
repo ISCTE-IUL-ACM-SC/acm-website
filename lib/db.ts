@@ -1,22 +1,22 @@
-import { neon } from '@neondatabase/serverless'
+import { neon } from "@neondatabase/serverless";
 
-let sqlInstance: any = null
+let sqlInstance: any = null;
 
 export function getSql() {
   if (!sqlInstance) {
-    const databaseUrl = process.env.DATABASE_URL
+    const databaseUrl = process.env.DATABASE_URL;
     if (!databaseUrl) {
-      throw new Error('DATABASE_URL environment variable is not set')
+      throw new Error("DATABASE_URL environment variable is not set");
     }
-    sqlInstance = neon(databaseUrl)
+    sqlInstance = neon(databaseUrl);
   }
-  return sqlInstance
+  return sqlInstance;
 }
 
 // Initialize database tables
 export async function initializeDatabase() {
   try {
-    const sql = getSql()
+    const sql = getSql();
     await sql`
       CREATE TABLE IF NOT EXISTS join_requests (
         id SERIAL PRIMARY KEY,
@@ -30,10 +30,19 @@ export async function initializeDatabase() {
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         UNIQUE(email)
       )
-    `
-    console.log('Database initialized successfully')
+    `;
+
+    await sql`
+      CREATE TABLE IF NOT EXISTS posts (
+        id SERIAL PRIMARY KEY,
+        title VARCHAR(255) NOT NULL,
+        description TEXT NOT NULL,
+        date DATE NOT NULL,
+      )
+    `;
+    console.log("Database initialized successfully");
   } catch (error) {
-    console.error('Error initializing database:', error)
-    throw error
+    console.error("Error initializing database:", error);
+    throw error;
   }
 }
