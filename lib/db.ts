@@ -37,9 +37,11 @@ export async function initializeDatabase() {
         id SERIAL PRIMARY KEY,
         title VARCHAR(255) NOT NULL,
         description TEXT NOT NULL,
-        date DATE NOT NULL,
+        publish_date DATE NOT NULL,
+        last_updated_date DATE NOT NULL
       )
     `;
+
     console.log("Database initialized successfully");
   } catch (error) {
     console.error("Error initializing database:", error);
