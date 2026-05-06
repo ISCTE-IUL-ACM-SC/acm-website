@@ -46,9 +46,20 @@ async function initializeDatabase() {
       CREATE INDEX IF NOT EXISTS idx_join_requests_created_at ON join_requests(created_at DESC);
     `
 
+    // Seed posts (skip if already present)
+    await sql`
+      INSERT INTO posts (title, description, publish_date, last_updated_date)
+      VALUES
+        ('ACM Launches New Initiative', 'Fostering innovation and collaboration among students.', '2025-02-24', '2025-02-24'),
+        ('Join Our Upcoming Workshop', 'Enhance your skills and network with professionals.', '2025-03-05', '2025-03-05'),
+        ('Hackathon 2025: Registration Open', 'Showcase your talent in solving real-world problems.', '2025-04-10', '2025-04-10')
+      ON CONFLICT DO NOTHING;
+    `
+
     console.log('✅ Database initialized successfully!')
     console.log('📋 Tables created:')
     console.log('   - join_requests')
+    console.log('   - posts (seeded with 3 entries)')
     console.log('\n✨ Setup complete! You can now use the join form.')
   } catch (error) {
     console.error('❌ Error initializing database:', error.message)
