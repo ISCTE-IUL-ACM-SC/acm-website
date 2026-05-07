@@ -13,6 +13,15 @@ export function getSql() {
   return sqlInstance;
 }
 
+export async function getPosts() {
+  const sql = getSql();
+  return sql`
+    SELECT id, title, description, publish_date, last_updated_date
+    FROM posts
+    ORDER BY publish_date DESC
+  `;
+}
+
 // Initialize database tables
 export async function initializeDatabase() {
   try {

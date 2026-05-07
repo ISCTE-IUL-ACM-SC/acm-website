@@ -1,15 +1,10 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { WavyBackground } from "@/components/wavy-background"
-import { getSql } from "@/lib/db"
+import { getPosts } from "@/lib/db"
 
 export default async function PostsPage() {
-  const sql = getSql()
-  const posts = await sql`
-    SELECT id, title, description, publish_date, last_updated_date
-    FROM posts
-    ORDER BY publish_date DESC
-  `
+  const posts = await getPosts()
 
   return (
     <div className="min-h-screen bg-background">

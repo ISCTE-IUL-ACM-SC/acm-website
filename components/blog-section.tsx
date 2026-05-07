@@ -1,12 +1,7 @@
-import { getSql } from "@/lib/db"
+import { getPosts } from "@/lib/db"
 
 export async function BlogSection() {
-  const sql = getSql()
-  const posts = await sql`
-    SELECT id, title, description, publish_date, last_updated_date
-    FROM posts
-    ORDER BY publish_date DESC
-  `
+  const posts = await getPosts()
 
   return (
     <section className="blog-section">
