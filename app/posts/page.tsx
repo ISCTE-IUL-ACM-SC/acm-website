@@ -1,9 +1,11 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { WavyBackground } from "@/components/wavy-background"
-import { blogPosts } from "@/lib/blog-data"
+import { getPosts } from "@/lib/db"
 
-export default function PostsPage() {
+export default async function PostsPage() {
+  const posts = await getPosts()
+
   return (
     <div className="min-h-screen bg-background">
       <WavyBackground />
@@ -18,7 +20,7 @@ export default function PostsPage() {
           </div>
 
           <div className="space-y-6">
-            {blogPosts.map((post) => (
+            {posts.map((post) => (
               <article
                 key={post.id}
                 className="bg-white dark:bg-gray-800 rounded-xl shadow-md dark:shadow-gray-700 p-8 hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700"
@@ -29,10 +31,11 @@ export default function PostsPage() {
                       {post.title}
                     </h2>
                     <time className="text-sm font-medium text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
-                      {new Date(post.date).toLocaleDateString("en-US", {
+                      {new Date(post.publish_date).toLocaleDateString("en-US", {
                         year: "numeric",
                         month: "long",
                         day: "numeric",
+                        timeZone: "UTC",
                       })}
                     </time>
                   </div>
