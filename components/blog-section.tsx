@@ -20,7 +20,9 @@ export async function BlogSection() {
             >
               <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-3">{post.title}</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">{post.description}</p>
-              <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">{post.publish_date}</span>
+              <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+                {new Date(post.publish_date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}
+              </span>
             </div>
           ))}
         </div>

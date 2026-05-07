@@ -8,7 +8,7 @@ export function getSql() {
     if (!databaseUrl) {
       throw new Error("DATABASE_URL environment variable is not set");
     }
-    sqlInstance = neon(databaseUrl);
+    sqlInstance = neon(databaseUrl, { fetchOptions: { cache: 'no-store' } });
   }
   return sqlInstance;
 }
